@@ -1,0 +1,186 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+  background-color: #fff;
+}
+
+#notfound {
+  padding: 50px;
+}
+
+.notfound {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*.notfound .notfound-bg {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: -1;
+}
+
+.notfound .notfound-bg > div {
+  width: 100%;
+  background: #fff;
+  border-radius: 90px;
+  height: 125px;
+}
+
+.notfound .notfound-bg > div:nth-child(1) {
+  -webkit-box-shadow: 5px 5px 0px 0px #f3f3f3;
+          box-shadow: 5px 5px 0px 0px #f3f3f3;
+}
+
+.notfound .notfound-bg > div:nth-child(2) {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-box-shadow: 5px 5px 0px 0px #f3f3f3;
+          box-shadow: 5px 5px 0px 0px #f3f3f3;
+  position: relative;
+  z-index: 10;
+}
+
+.notfound .notfound-bg > div:nth-child(3) {
+  -webkit-box-shadow: 5px 5px 0px 0px #f3f3f3;
+          box-shadow: 5px 5px 0px 0px #f3f3f3;
+  position: relative;
+  z-index: 90;
+}*/
+
+.notfound h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 86px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #151515;
+}
+
+.notfound h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 26px;
+  margin: 0;
+  font-weight: 700;
+  color: #151515;
+}
+
+.notfound .btn-back {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #18e06f;
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.notfound .btn-back:hover {
+  opacity: 0.8;
+}
+
+.notfound-social {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.notfound-social>a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #dedede;
+  margin: 3px;
+  padding: 0px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.notfound-social>a:hover {
+  background-color: #18e06f;
+}
+
+.notfound h4 a {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  color: #bdc3c7;
+  border-bottom: 2px solid transparant;
+}
+
+.notfound h4 a:hover {
+  border-left: 3px solid #2ecc71;
+  color: #000;
+  transition: 0.3s;
+  padding-left: 3px;
+}
+
+@media only screen and (max-width: 767px) {
+    .notfound .notfound-bg {
+      width: 287px;
+      margin: auto;
+    }
+
+    .notfound .notfound-bg > div {
+      height: 85px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound h1 {
+    font-size: 68px;
+  }
+
+  .notfound h2 {
+    font-size: 18px;
+  }
+
+  .notfound h4 {
+    font-size: 14px;
+  }
+
+  .notfound {
+    margin: 0;
+  }
+
+  #notfound {
+    padding: 0;
+  }
+
+  .notfound img{
+    width: 300px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .notfound {
+  }
+
+  #notfound {
+    padding: 0;
+  }
+
+}
